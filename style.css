@@ -1,0 +1,56 @@
+html,body {
+    margin: 0;
+    height: 100%;    
+
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: #e0a4b478 !important;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+main {
+    display: grid !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: start;
+    justify-items: center;
+    background: pink;
+    height: 700px;
+    width: 700px;
+}
+
+.list-tasks {
+    padding: 20px 0;
+}
+
+.input-task-wrap > label {
+    display: block !important;
+}
+
+.btn {
+    margin: 10px;
+}
+.btn-success {
+    margin: 10px;
+}
+
+input[type='text'] {
+    width: 300px;
+}
+
+.task-text {
+    padding-left: 50px;
+}
+
+.list-tasks .task-item {
+    background: #ffeaa7;
+}
